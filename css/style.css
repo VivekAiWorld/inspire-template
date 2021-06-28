@@ -1,0 +1,66 @@
+.home-heads-div {
+    margin-top: 5rem;
+    ;
+}
+
+.btn-main{
+    background-image:linear-gradient(to right,  #00c38a, #008a94);
+    color: white;
+    font-size: 18px;
+    padding-right: 4rem!important;
+    padding-left: 4rem!important;
+}
+
+.nav-logo{
+    width: 62%;
+}
+.main-img{
+    /* width: 45%;
+    position: absolute;
+    top: 6%; */
+    width: 100%; /* width of container */
+    height: 100%;
+}
+h1 {
+    font-size: 4.5rem !important;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#00c38a,#009f94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-description{
+    font-size: 18px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(1 40 74);
+    color: white;
+    background-image: url("../assets/img/main_bg_line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0 top 100px;
+}
+
+.navbar {
+    display: inherit !important;
+    padding-top: 2.8rem !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(0 174 144) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0 174 144) !important;
+}
